@@ -8,3 +8,11 @@ install:
 script:
   - npm ci
   - npm run test
+  - npm run start
+
+deploy:
+  provider: heroku
+  strategy: api
+  api_key:
+    secure: 2e2bb55c-9046-4091-a8c0-f1d83e858108
+  app: mighty-everglades-35186
