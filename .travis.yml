@@ -12,5 +12,6 @@ deploy:
   provider: heroku
   api_key:
     secure: $GITHUB_TOKEN
+  app: mighty-everglades-35186
   on:
-    branch: main
+    repo: mdirshaddev/UrlShortener
