@@ -6,6 +6,7 @@ install:
   - npm install
 
 script:
+  - npm ci
   - npm run test
 
 deploy:
