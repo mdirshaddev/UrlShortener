@@ -8,11 +8,3 @@ install:
 script:
   - npm ci
   - npm run test
-
-deploy:
-  provider: heroku
-  api_key:
-    secure: 701f2e63-1062-4478-9332-83882cc1e08a
-  app: mighty-everglades-35186
-  on:
-    repo: mdirshaddev/UrlShortener
