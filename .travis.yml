@@ -18,4 +18,4 @@ deploy:
   strategy: api
   api_key:
     secure: API_KEY
-  app: mighty-everglades-35186
+  app: mighty-everglades
