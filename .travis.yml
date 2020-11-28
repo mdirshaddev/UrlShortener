@@ -5,6 +5,10 @@ node_js:
 install:
   - npm install
 
+dist: xenial
+
+os: linux
+
 script:
   - npm ci
   - npm run test
