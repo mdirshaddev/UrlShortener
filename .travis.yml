@@ -12,7 +12,6 @@ os: linux
 script:
   - npm ci
   - npm run test
-  - npm run start
 
 deploy:
   provider: heroku
