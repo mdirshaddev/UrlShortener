@@ -18,5 +18,5 @@ deploy:
   provider: heroku
   strategy: api
   api_key:
-    secure: API_KEY
+    secure: 2204b876-94cb-471f-9fc5-ee2ae0c4f6ff
   app: mighty-everglades-35186
